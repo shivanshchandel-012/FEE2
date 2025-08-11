@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .sidebar {
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        ul li{
+            display: inline;
+        }
+        .secret{
+            display: none;
+        }
+        .box1, .box2 {
+            display: block;
+            width: 100px;
+            height: 500px;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+        .tooltip-container {
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            height: 30px;
+            background-color: #eee;
+            text-align: center;
+            line-height: 30px;
+        }
+        .tooltip {
+            visibility: hidden;
+            background-color: black;
+            color: white;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            padding: 5px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+        .tooltip-container:hover .tooltip {
+            visibility: visible;
+        } */
+
+        .container{
+            display: flex;
+            gap: 10px;
+            column-gap: 40px;
+            row-gap: 10px;
+
+            justify-content: center;
+            justify-content: flex-end;
+            justify-content: flex-start;
+            justify-content: space-evenly;
+
+            align-items: center;
+
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="sidebar">I'm sticky</div>
+    <div class="content">Scroll to test...</div>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul> 
+
+    <p>This is visible</p>
+    <p class="secret">You shouldn't see me</p> -->
+    <div class="container">
+        <span class="box1">Box 1</span>
+        <span class="box2">Box 2</span>
+    </div>
+    
+
+    
+
+    <!-- <span class="tooltip-container">
+        Hover me
+        <span class="tooltip">Tooltip Text</span>
+    </span> -->
+
+</body>
+</html>

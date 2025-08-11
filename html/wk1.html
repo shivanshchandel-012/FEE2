@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Resume - BE CSE Student</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #faf8f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #3B2F2F;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #6F4E37;
+      border-bottom: 2px solid #C65D3D;
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    ul, dl {
+      margin-left: 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form label::before {
+      content: "🔹 ";
+    }
+
+    .icon-label {
+      display: block;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #3B2F2F;
+      color: white;
+    }
+
+    iframe, embed, object {
+      margin-top: 15px;
+      width: 100%;
+      height: 300px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shivansh Chandel</h1>
+  <h3>B.E. CSE 2nd Year Student</h3>
+  <img src="" alt="Profile Photo" class="profile-img" />
+</header>
+
+<section>
+  <h2>Career Summary</h2>
+  <p>
+    I am a passionate computer science student with a strong interest in full-stack development, AI, and competitive programming. I enjoy learning new technologies and applying them in real-world projects. My goal is to become a proficient software engineer and contribute to meaningful tech innovations.
+  </p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Experience Level</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Intermediate</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Intermediate</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Intermediate</td>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td>Intermediate</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Introduction</h2>
+  <p><strong>🎧 Audio Self-Intro:</strong></p>
+  <audio controls>
+    <source src="intro.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <p><strong>🎥 Video Introduction:</strong></p>
+  <iframe src="https://www.youtube.com/embed/C2QoDC1rka8" 
+      title="YouTube Video" allowfullscreen>
+  </iframe>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li><strong>Introduction to Python – Coursera</strong>: Basics of Python programming</li>
+    <li><strong>Responsive Web Design – freeCodeCamp</strong>: HTML, CSS, Flexbox, and Grid</li>
+    <li><strong>JavaScript for Beginners – Udemy</strong>: ES6 and DOM Manipulation</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Profiles</h2>
+  <p><strong>🌐 GitHub:</strong></p>
+  <iframe src="https://github.com/shivanshchandel-012/FEE"></iframe>
+
+  <p><strong>💼 LinkedIn:</strong></p>
+  <iframe src="https://www.linkedin.com/in/yourprofile/"></iframe>
+</section>
+
+<section>
+  <h2>Downloadable Resume</h2>
+  <embed src="resume.pdf" type="application/pdf" />
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name" class="icon-label">👤 Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email" class="icon-label">📧 Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone" class="icon-label">📞 Phone:</label>
+    <input type="tel" id="phone" name="phone" required />
+
+    <label for="subject" class="icon-label">✉️ Subject:</label>
+    <input type="text" id="subject" name="subject" />
+
+    <label for="message" class="icon-label">📝 Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 John Doe | BE CSE | brewZilla Student Resume
+</footer>
+
+</body>
+</html>
+
